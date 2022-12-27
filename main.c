@@ -145,7 +145,7 @@ void process(int **array, int *size) {
                     (*array)[k] = (*array)[k + 1];
                 }
                 (*array) = realloc(*array, (col) * sizeof(int));
-                i--;
+
             }
             if ((*array)[i] > 0){
                 col ++;
